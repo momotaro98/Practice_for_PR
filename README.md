@@ -23,9 +23,9 @@ and
 ```
 $ git push/pull origin X_place
 ```
-above commnad.  
+In above commnad,  
 `X_place` is **source refference**.  
-when push, X_place is local, otherwise, when pull, X_place is remote.  
+when push, X_place is local, otherwise, when pull, X_place is remote.(Maybee)  
 So, in defualt, when push, remote master is default.
 But, pull commnad means fetch + merge, so, pull commnad makes all branches merged???
 
