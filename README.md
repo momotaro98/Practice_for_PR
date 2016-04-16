@@ -8,7 +8,7 @@ $ git push origin <branch>
 The <branch> means remote branch or local branch?
 
 
-## Before Understanding
+## Before Understanding git push/pull arguments
 ```
 $ git push/push origin <source>:<destination>
 ```
@@ -19,14 +19,15 @@ I mean local branch is defaulted to current branch.
 and  
 `git pull origin master` means I pull remote's master to current branch???  
 
-## After Understanding (Maybee)
+## After Understanding git push/pull arguments (Maybee)
 ```
 $ git push/pull origin X_place
 ```
 above commnad.  
-`X_place` is **source refference**.
-when push, X_place is local, otherwise, when pull, X_place is remote.
-So, in defualt, when push, remote master is default, when pull, current branch is default.
+`X_place` is **source refference**.  
+when push, X_place is local, otherwise, when pull, X_place is remote.  
+So, in defualt, when push, remote master is default.
+But, pull commnad means fetch + merge, so, pull commnad makes all branches merged???
 
 ## Hello issue???
 ### Difference between git pull and git pull --rebase
